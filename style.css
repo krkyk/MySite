@@ -1,0 +1,108 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  width:100%;
+  height:70px;
+  background-color: #EC715F;
+}
+.container{
+  width:100%;
+  margin:0 auto;
+}
+.header-group{
+  width:1024px;
+  display:flex;
+  justify-content: space-between;
+}
+.logo{
+  height:70px;
+}
+.nav-list{
+  display:flex;
+}
+.nav-list-item{
+  list-style: none;
+  line-height: 70px;
+  padding:0 30px;
+  color:#fafafa;
+  font-size:16px;
+}
+.main-visual{
+  width:100%;
+  height:650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.mv-title{
+  color:#fafafa;
+  padding-top: 200px;
+  font-size:64px;
+}
+.mv-text{
+  color: #fafafa;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.portfolio{
+  background-color: #eceff1;
+}
+.pf-title{
+  color: #000;
+  font-size:32px;
+  text-align: center;
+  padding-top:90px;
+}
+.pf-title::after{
+  content:"";
+  width:70px;
+  height:3px;
+  background-color: #EC715F;
+  display:block;
+  margin:8px auto 0 auto;
+}
+.pf-text{
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+  padding-top:30px;
+}
+.pf-imag-group{
+  display:flex;
+  flex-wrap:wrap;
+  width:920px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.pf-imag{
+  width:300px;
+  height:250px;
+  background-size: cover;
+  background-position: center;
+}
+.pf-imag:nth-child(odd){
+  margin-right:10px;
+}
+.pf-imag:nth-child(1){
+  background-image: url(img/sketch.jpg);
+}
+.pf-imag:nth-child(2){
+  background-image: url(img/websuku.jpg);
+}
+.pf-imag:nth-child(3){
+  background-image: url(img/write.jpg);
+}
+.pf-imag:nth-child(4){
+  background-image: url(img/webcamp.jpg);
+}
+.pf-imag:nth-child(5){
+  background-image: url(img/talk.jpg);
+}
+.pf-imag:nth-child(6){
+  background-image: url(img/webcamp-mother.jpg);
+}
